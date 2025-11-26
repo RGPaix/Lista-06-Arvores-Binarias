@@ -13,6 +13,7 @@ O projeto utiliza a classe BinarySearchTree<T> (BST) como base, estendida com im
 Abaixo, descrevo cada requisito da atividade e onde está implementado no código.
 
 ✅ 1. Funções adicionais
+
 🔹 1.1 Exibir os nós folha em ordem crescente
 
 Implementado com caminhamento in-order e filtragem de folhas.
@@ -26,6 +27,7 @@ Varredura recursiva verificando (left == null XOR right == null).
 Função recursiva que decrementa o nível até k == 0.
 
 ✅ 2. Adaptações no código
+
 🔹 2.1 Calcular a altura da árvore (recursivo)
 
 Implementação clássica:
